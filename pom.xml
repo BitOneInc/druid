@@ -66,10 +66,10 @@
         <fastutil.version>8.1.0</fastutil.version>
         <guava.version>16.0.1</guava.version>
         <guice.version>4.1.0</guice.version>
-        <jetty.version>9.3.19.v20170502</jetty.version>
+        <jetty.version>9.3.26.v20190403</jetty.version>
         <jersey.version>1.19.3</jersey.version>
         <!-- Watch out for Hadoop compatibility when updating to >= 2.5; see https://github.com/druid-io/druid/pull/1669 -->
-        <jackson.version>2.4.6</jackson.version>
+        <jackson.version>2.10.0</jackson.version>
         <log4j.version>2.5</log4j.version>
         <!-- HttpClient has not yet been ported to Netty 4.x -->
         <netty3.version>3.10.6.Final</netty3.version>
@@ -86,7 +86,7 @@
         <aws.sdk.version>1.10.77</aws.sdk.version>
         <caffeine.version>2.5.5</caffeine.version>
         <!-- When upgrading ZK, edit docs and integration tests as well (integration-tests/docker-base/setup.sh) -->
-        <zookeeper.version>3.4.11</zookeeper.version>
+        <zookeeper.version>3.5.5</zookeeper.version>
         <repoOrgId>org-apache-id</repoOrgId>
         <repoOrgName>org-apache-name</repoOrgName>
         <repoOrgUrl>https://repository.apache.org/content/repositories/public/</repoOrgUrl>
@@ -1196,7 +1196,7 @@
         <profile>
             <id>spark2</id>
             <properties>
-                <jackson.version>2.6.5</jackson.version>
+                <jackson.version>2.10.0</jackson.version>
                 <aws.sdk.version>1.11.143</aws.sdk.version>
             </properties>
         </profile>
